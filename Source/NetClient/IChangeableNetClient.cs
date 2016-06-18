@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace NetClient
 {
-    public interface IChangeableRepository<T> : IRepository
+    public interface IChangeableNetClient<T> : INetClient
     {
         Task<T> AddAsync(T item);
 

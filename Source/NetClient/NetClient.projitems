@@ -6,13 +6,13 @@
     <SharedGUID>317b645c-b291-4121-b583-0c2b4abe630e</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Repository</Import_RootNamespace>
+    <Import_RootNamespace>NetClient</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)IChangeableRepository.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IQueryableRepository.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IRepository.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IRepositoryContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IChangeableNetClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IQueryableNetClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)INetClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)INetClientContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
   </ItemGroup>
 </Project>

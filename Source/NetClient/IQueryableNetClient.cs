@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace NetClient
 {
-    public interface IQueryableRepository<T> : IRepository
+    public interface IQueryableNetClient<T> : INetClient
     {
         Task<IQueryable<T>> GetAsync();
     }

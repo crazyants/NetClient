@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Repository", "Repository\Repository.shproj", "{317B645C-B291-4121-B583-0C2B4ABE630E}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NetClient", "NetClient\NetClient.shproj", "{317B645C-B291-4121-B583-0C2B4ABE630E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Net461", "Repository.Net461\Repository.Net461.csproj", "{EFEBEE6C-2CC6-4350-8F11-3605B2973F6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetClient.Net461", "NetClient.Net461\NetClient.Net461.csproj", "{EFEBEE6C-2CC6-4350-8F11-3605B2973F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Net46", "Repository.Net46\Repository.Net46.csproj", "{8A74590A-CEFB-4B31-BEB2-9A02CBDA23FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetClient.Net46", "NetClient.Net46\NetClient.Net46.csproj", "{8A74590A-CEFB-4B31-BEB2-9A02CBDA23FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Net45", "Repository.Net45\Repository.Net45.csproj", "{3C8C334D-1D10-4042-A2DD-B7B594B40B97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetClient.Net45", "NetClient.Net45\NetClient.Net45.csproj", "{3C8C334D-1D10-4042-A2DD-B7B594B40B97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Net40", "Repository.Net40\Repository.Net40.csproj", "{FD358DF3-A7CC-4F93-9ABC-E2C1625B3921}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetClient.Net40", "NetClient.Net40\NetClient.Net40.csproj", "{FD358DF3-A7CC-4F93-9ABC-E2C1625B3921}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Repository\Repository.projitems*{317b645c-b291-4121-b583-0c2b4abe630e}*SharedItemsImports = 13
-		Repository\Repository.projitems*{3c8c334d-1d10-4042-a2dd-b7b594b40b97}*SharedItemsImports = 4
-		Repository\Repository.projitems*{fd358df3-a7cc-4f93-9abc-e2c1625b3921}*SharedItemsImports = 4
-		Repository\Repository.projitems*{8a74590a-cefb-4b31-beb2-9a02cbda23fa}*SharedItemsImports = 4
-		Repository\Repository.projitems*{efebee6c-2cc6-4350-8f11-3605b2973f6d}*SharedItemsImports = 4
+		NetClient\NetClient.projitems*{317b645c-b291-4121-b583-0c2b4abe630e}*SharedItemsImports = 13
+		NetClient\NetClient.projitems*{3c8c334d-1d10-4042-a2dd-b7b594b40b97}*SharedItemsImports = 4
+		NetClient\NetClient.projitems*{fd358df3-a7cc-4f93-9abc-e2c1625b3921}*SharedItemsImports = 4
+		NetClient\NetClient.projitems*{8a74590a-cefb-4b31-beb2-9a02cbda23fa}*SharedItemsImports = 4
+		NetClient\NetClient.projitems*{efebee6c-2cc6-4350-8f11-3605b2973f6d}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

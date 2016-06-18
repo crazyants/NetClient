@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace NetClient
 {
-    public interface IRepositoryContext : IDisposable
+    public interface INetClientContext : IDisposable
     {
         Task SaveAsync();
     }
