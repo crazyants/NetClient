@@ -5,7 +5,7 @@
     <version>0.0.0</version>
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>NetClient is library containing the abstractions and fundamental types to support a generic and asynchronous service API client.</description>
-    <tags>async asynchronous generic http net client api rest service</tags>
+    <tags>async asynchronous generic http net client api service</tags>
     <iconUrl>https://raw.githubusercontent.com/skthomasjr/NetClient/master/Build/NuGet/Package.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/skthomasjr/NetClient/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/skthomasjr/NetClient</projectUrl>
