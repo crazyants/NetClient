@@ -10,6 +10,12 @@ namespace NetClient
     public interface IElement<out T> : IQueryable<T>
     {
         /// <summary>
+        ///     Gets the client.
+        /// </summary>
+        /// <value>The client.</value>
+        INetClient Client { get; }
+
+        /// <summary>
         ///     Gets or sets the error action.
         /// </summary>
         /// <value>The error action.</value>

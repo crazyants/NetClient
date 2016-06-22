@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)IElement.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IRestClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)INetClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
