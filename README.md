@@ -7,3 +7,9 @@
 [![Join the chat at https://gitter.im/skthomasjr/NetClient](https://badges.gitter.im/skthomasjr/NetClient.svg)](https://gitter.im/skthomasjr/NetClient?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 NetClient is library containing the abstractions and fundamental types to support a generic and asynchronous service API client.
+
+There are currently implementations to support REST and JSON-RPC:
+- [NetClient.Rest](https://github.com/skthomasjr/NetClient.Rest)
+- [NetClient.JsonRpc](https://github.com/skthomasjr/NetClient.JsonRpc)
+- 
+Please use these projects as reference implementations.
