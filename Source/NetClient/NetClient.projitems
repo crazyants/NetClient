@@ -9,10 +9,8 @@
     <Import_RootNamespace>NetClient</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)IChangeableNetClient.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IQueryableNetClient.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)INetClient.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)INetClientContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IRestClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
