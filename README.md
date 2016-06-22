@@ -11,5 +11,5 @@ NetClient is library containing the abstractions and fundamental types to suppor
 There are currently implementations to support REST and JSON-RPC:
 - [NetClient.Rest](https://github.com/skthomasjr/NetClient.Rest)
 - [NetClient.JsonRpc](https://github.com/skthomasjr/NetClient.JsonRpc)
-- 
+
 Please use these projects as reference implementations.
