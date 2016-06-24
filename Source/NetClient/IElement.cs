@@ -8,8 +8,13 @@ namespace NetClient
     /// </summary>
     /// <typeparam name="T">The type of the element.</typeparam>
     /// <typeparam name="TCriteria">The type of the criteria.</typeparam>
-    public interface IElement<out T, out TCriteria> : IElement, IQueryable<TCriteria>
+    public interface IElement<out T, out TCriteria> : IElement, IQueryable<T>
     {
+        /// <summary>
+        ///     Gets the criteria.
+        /// </summary>
+        /// <value>The criteria.</value>
+        TCriteria Criteria { get; }
     }
 
     /// <summary>
