@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Composition;
 using System.Linq;
 
 namespace NetClient
@@ -8,6 +9,7 @@ namespace NetClient
     /// </summary>
     /// <typeparam name="T">The type of the element.</typeparam>
     /// <typeparam name="TCriteria">The type of the criteria.</typeparam>
+    [InheritedExport]
     public interface IElement<out T, out TCriteria> : IElement, IQueryable<T>
     {
         /// <summary>

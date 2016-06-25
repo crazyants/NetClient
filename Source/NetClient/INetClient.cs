@@ -1,10 +1,12 @@
 ﻿using System;
+using System.ComponentModel.Composition;
 
 namespace NetClient
 {
     /// <summary>
     ///     Provides a interface for sending requests and receiving responses over network boundaries.
     /// </summary>
+    [InheritedExport]
     public interface INetClient
     {
         /// <summary>
