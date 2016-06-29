@@ -8,21 +8,6 @@ namespace NetClient
     ///     The NetClient element.
     /// </summary>
     /// <typeparam name="T">The type of the element.</typeparam>
-    /// <typeparam name="TCriteria">The type of the criteria.</typeparam>
-    [InheritedExport]
-    public interface IElement<out T, out TCriteria> : IElement<T>
-    {
-        /// <summary>
-        ///     Gets the criteria.
-        /// </summary>
-        /// <value>The criteria.</value>
-        TCriteria Criteria { get; }
-    }
-
-    /// <summary>
-    ///     The NetClient element.
-    /// </summary>
-    /// <typeparam name="T">The type of the element.</typeparam>
     [InheritedExport]
     public interface IElement<out T> : IElement, IQueryable<T>
     {
